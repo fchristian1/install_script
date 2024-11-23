@@ -1,47 +1,0 @@
-Holen:1 https://cli.github.com/packages stable InRelease [3.917 B]
-Holen:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-OK:3 http://de.archive.ubuntu.com/ubuntu noble InRelease
-OK:4 https://download.docker.com/linux/ubuntu noble InRelease
-OK:5 https://dl.google.com/linux/chrome/deb stable InRelease
-Holen:6 http://de.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-OK:7 https://apt.releases.hashicorp.com noble InRelease
-OK:8 https://ppa.launchpadcontent.net/ansible/ansible/ubuntu noble InRelease
-OK:9 https://ppa.launchpadcontent.net/longsleep/golang-backports/ubuntu noble InRelease
-OK:10 https://packages.microsoft.com/repos/azure-cli noble InRelease
-Holen:11 https://cli.github.com/packages stable/main amd64 Packages [346 B]
-OK:12 https://packages.microsoft.com/repos/code stable InRelease
-Holen:13 http://de.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-OK:14 https://packages.cloud.google.com/apt cloud-sdk InRelease
-Holen:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [7.228 B]
-Holen:16 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
-Holen:17 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52,0 kB]
-Holen:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
-Holen:19 http://de.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [131 kB]
-Holen:20 http://de.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
-Holen:21 http://de.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [310 kB]
-Holen:22 http://de.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Holen:23 http://de.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [208 B]
-Holen:24 http://de.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
-Holen:25 http://de.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [21,9 kB]
-Holen:26 http://de.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
-Es wurden 906 kB in 1 s geholt (948 kB/s).
-Paketlisten werden gelesen…
-Abhängigkeitsbaum wird aufgebaut…
-Statusinformationen werden eingelesen…
-Aktualisierung für 5 Pakete verfügbar. Führen Sie »apt list --upgradable« aus, um sie anzuzeigen.
-Paketlisten werden gelesen…
-Abhängigkeitsbaum wird aufgebaut…
-Statusinformationen werden eingelesen…
-Die folgenden NEUEN Pakete werden installiert:
-  gh
-0 aktualisiert, 1 neu installiert, 0 zu entfernen und 5 nicht aktualisiert.
-Es müssen 13,7 MB an Archiven heruntergeladen werden.
-Nach dieser Operation werden 50,4 MB Plattenplatz zusätzlich benutzt.
-Holen:1 https://cli.github.com/packages stable/main amd64 gh amd64 2.62.0 [13,7 MB]
-Es wurden 13,7 MB in 0 s geholt (42,7 MB/s).
-Vormals nicht ausgewähltes Paket gh wird gewählt.
-(Lese Datenbank ... (Lese Datenbank ... 5%(Lese Datenbank ... 10%(Lese Datenbank ... 15%(Lese Datenbank ... 20%(Lese Datenbank ... 25%(Lese Datenbank ... 30%(Lese Datenbank ... 35%(Lese Datenbank ... 40%(Lese Datenbank ... 45%(Lese Datenbank ... 50%(Lese Datenbank ... 55%(Lese Datenbank ... 60%(Lese Datenbank ... 65%(Lese Datenbank ... 70%(Lese Datenbank ... 75%(Lese Datenbank ... 80%(Lese Datenbank ... 85%(Lese Datenbank ... 90%(Lese Datenbank ... 95%(Lese Datenbank ... 100%(Lese Datenbank ... 293926 Dateien und Verzeichnisse sind derzeit installiert.)
-Vorbereitung zum Entpacken von .../archives/gh_2.62.0_amd64.deb ...
-Entpacken von gh (2.62.0) ...
-gh (2.62.0) wird eingerichtet ...
-Trigger für man-db (2.12.0-4build2) werden verarbeitet ...
