@@ -21,7 +21,7 @@ chmod u+x install
 - GCP CLI
 
 ## System Services
-- Grafana
+- Monitoring with Grafana
   - Grafana
   - Prometheus
   - Loki
