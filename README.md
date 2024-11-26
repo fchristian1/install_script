@@ -12,7 +12,7 @@ chmod u+x install
 ## Environments
 - gh cli
 - Docker
-- NVM
+- NVM with nodejs lts
 - Go
 - Ansible
 - Terraform
