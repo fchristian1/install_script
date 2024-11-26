@@ -21,6 +21,7 @@ chmod u+x install
 - GCP CLI
 
 --- not yet ---
+
 ## System Services
 - Monitoring with Grafana
   - Grafana
@@ -28,6 +29,7 @@ chmod u+x install
   - Loki
   - node_exporter
   - Promtail
+  - 
 --- not yet ---
 
 ## Configuration's
