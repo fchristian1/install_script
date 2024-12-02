@@ -8,6 +8,7 @@ chmod u+x install
 - Google Chrome
 - VSCode
 - Slack
+- Multipass
 
 ## Environments
 - gh cli

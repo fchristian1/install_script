@@ -97,10 +97,9 @@ install_docker() {
 		sudo tee /etc/apt/sources.list.d/docker.list >/dev/null
 	sudo apt-get update && sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 	sudo usermod -aG docker $USER
-	newgrp docker
 	echo "Docker version: $(docker -v)"
 	echo "$(docker compose version)"
-	echo "Docker installed"
+	echo "Docker installed - Please logout and login to use docker without sudo"
 	return 0
 }
 install_nvm() {
@@ -189,6 +188,12 @@ install_slack() {
 	return 0
 }
 
+install_multipass() {
+	echo "Installing Multipass"
+	snap install multipass
+	echo "Multipass installed"
+	return 0
+}
 configer() {
 	$1 | tee -a ./config.log
 }
@@ -244,6 +249,7 @@ Main Menu > Desktop installs
 1) Google Chrome
 2) VSCode
 3) Slack
+4) Multipass
 
 q) Zurück <---
 "
@@ -319,6 +325,7 @@ submenu1_actions=(
 	[1]="installer install_google_chrome"
 	[2]="installer install_vscode"
 	[3]="installer install_slack"
+	[4]="installer install_multipass"
 	[q]="return_to_main"
 )
 
